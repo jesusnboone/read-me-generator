@@ -35,7 +35,7 @@ const promptUser = () => {
         type: 'checkbox',
         name: 'licenses',
         message: 'Which licenses is your project covered under (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
+        choices: ['Apache', 'Eclipse', 'GNU', 'IBM', 'MIT', 'Mozilla']
       },
       {
         type: 'input',
