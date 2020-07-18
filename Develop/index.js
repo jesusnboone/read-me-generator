@@ -62,10 +62,10 @@ const promptUser = () => {
     promptUser()
       .then(portfolioData => {
 
-        const pageHTML = generateMarkdown(portfolioData);
-        fs.writeFile('./index.html', pageHTML, err => {
+        const readMeInfo = generateMarkdown(portfolioData);
+        fs.writeFile('./readMe.md', readMeInfo, err => {
            if (err) throw new Error(err);
     
-           console.log('Page created! Check out index.html in this directory to see it!');
+           console.log('Page created! Check out readMe.md in this directory to see it!');
          });
       });
