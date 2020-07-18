@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
-//const fs = require('fs');
-//const generateMarkdown = require('./utils/generateMarkdown');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 const promptUser = () => {
@@ -39,7 +39,7 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'Enter information on how someone can contribute to your project.'
       },
       {
@@ -59,31 +59,13 @@ const promptUser = () => {
       }
     ]);
   };
+    promptUser()
+      .then(portfolioData => {
 
-promptUser();
-/*
-  promptUser()
-  .then(promptProject)
-  .then(portfolioData => {
-    const pageHTML = generatePage(portfolioData);
-
-    fs.writeFile('./README.md', pageHTML, err => {
-       if (err) throw new Error(err);
-
-       console.log('Page created! Check out README.md in this directory to see it!');
-     });
-  });
-
-/*
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
-*/
+        const pageHTML = generateMarkdown(portfolioData);
+        fs.writeFile('./index.html', pageHTML, err => {
+           if (err) throw new Error(err);
+    
+           console.log('Page created! Check out index.html in this directory to see it!');
+         });
+      });
