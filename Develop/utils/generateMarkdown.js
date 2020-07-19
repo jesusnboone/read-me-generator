@@ -4,6 +4,8 @@ module.exports = templateData => {
   return `
   # ${title}
 
+  ![License: ${licenses}](https://img.shields.io/badge/License-${licenses}-brightgreen.svg)
+
   ## Description
 
   ${description}

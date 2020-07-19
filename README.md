@@ -1,13 +1,8 @@
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
-
-  # Title
+  # Read Me Generator
 
   ## Description
 
-  description
+  This project allows users to generate a ReadMe.md file through node.js.
 
   ## Table of Contents
 
@@ -20,23 +15,23 @@
 
   ## Installation
 
-  installation
+  In order to install, download this repository's zip file, or clone the repository to a local folder. Then, navigate to the root directory in your command line and enter 'npm i' to install Inquirer.
 
   ## Usage
 
-  usage
+  Anyone can use this, as it is open source.
 
   ## License
 
-  IBM, MIT, Mozilla
+  N/A
 
   ## Contributing
   
-  contribution
+  Anyone can contribute to this project. Feel free to contact me.
 
   ## Tests
 
-  tests
+  N/A
 
   ## Questions
 

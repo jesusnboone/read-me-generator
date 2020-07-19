@@ -32,10 +32,10 @@ const promptUser = () => {
         message: 'Enter usage information.'
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'licenses',
-        message: 'Which licenses is your project covered under (Check all that apply)',
-        choices: ['Apache', 'Eclipse', 'GNU', 'IBM', 'MIT', 'Mozilla']
+        message: 'Which license is your project covered under?',
+        choices: ['Apache', 'Eclipse', 'GNU', 'IBM', 'MIT', 'Mozilla'],
       },
       {
         type: 'input',
