@@ -1,5 +1,5 @@
   # Read Me Generator
-
+![Untitled_ Jul 19, 2020 4_30 PM (1)](https://user-images.githubusercontent.com/65085372/87885885-5c7f7100-c9de-11ea-8700-0429b2af8505.gif)
   ## Description
 
   This project allows users to generate a ReadMe.md file through node.js.
@@ -37,3 +37,6 @@
 
   Contact: jesusnboone@gmail.com
   Github Username: https://github.com/jesusnboone
+  
+(full video of project demo)
+https://drive.google.com/file/d/1M4Go_KKuGASMowKfjtMqDr0yDqUhd1t4/view
